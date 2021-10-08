@@ -50,10 +50,13 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
                     b.Property<string>("Direccion")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Edad")
+                        .HasColumnType("int");
+
                     b.Property<int>("Genero")
                         .HasColumnType("int");
 
-                    b.Property<int?>("HistoriaClinicaId")
+                    b.Property<int?>("HistoriaId")
                         .HasColumnType("int");
 
                     b.Property<string>("Latitud")
@@ -74,12 +77,9 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
                     b.Property<string>("Raza")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("edad")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("HistoriaClinicaId");
+                    b.HasIndex("HistoriaId");
 
                     b.HasIndex("PropietarioId");
 
@@ -204,15 +204,15 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
 
             modelBuilder.Entity("MascotasEnCasa.App.Dominio.Paciente", b =>
                 {
-                    b.HasOne("MascotasEnCasa.App.Dominio.Historia", "HistoriaClinica")
+                    b.HasOne("MascotasEnCasa.App.Dominio.Historia", "Historia")
                         .WithMany()
-                        .HasForeignKey("HistoriaClinicaId");
+                        .HasForeignKey("HistoriaId");
 
                     b.HasOne("MascotasEnCasa.App.Dominio.Propietario", "Propietario")
                         .WithMany()
                         .HasForeignKey("PropietarioId");
 
-                    b.Navigation("HistoriaClinica");
+                    b.Navigation("Historia");
 
                     b.Navigation("Propietario");
                 });
