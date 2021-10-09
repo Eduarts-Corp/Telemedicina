@@ -6,7 +6,7 @@ namespace MascotasEnCasa.App.Dominio
     {
         public string Licencia { get; set; }
 
-        public string HorasLaborales { get; set; }
+        public DateTime HorasLaborales { get; set; }
     }
 
 }   

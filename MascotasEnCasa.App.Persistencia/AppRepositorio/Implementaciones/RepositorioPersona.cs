@@ -75,7 +75,11 @@ namespace MascotasEnCasa.App.Persistencia
         var propietarioEncontrado = _appContext.Propietarios.FirstOrDefault( p => p.Id==propietario.Id);
            if (propietarioEncontrado!=null)
            {
-               propietarioEncontrado.Correo=propietario.Correo;               
+               propietarioEncontrado.Correo=propietario.Correo; 
+               propietarioEncontrado.Nombre=propietario.Nombre;
+               propietarioEncontrado.Apellidos=propietario.Apellidos;
+               propietarioEncontrado.NumeroTelefono=propietario.NumeroTelefono;
+               propietarioEncontrado.Genero=propietario.Genero;             
 
                _appContext.SaveChanges();
            }
@@ -90,6 +94,10 @@ namespace MascotasEnCasa.App.Persistencia
            {
                veterinarioEncontrado.Licencia=veterinario.Licencia;
                veterinarioEncontrado.Especialidad=veterinario.Especialidad;
+               veterinarioEncontrado.Nombre=veterinario.Nombre;
+               veterinarioEncontrado.Apellidos=veterinario.Apellidos;
+               veterinarioEncontrado.NumeroTelefono=veterinario.NumeroTelefono;
+               veterinarioEncontrado.Genero=veterinario.Genero;
                
                _appContext.SaveChanges();
            }
@@ -105,6 +113,10 @@ namespace MascotasEnCasa.App.Persistencia
            {
               auxVeterinarioEncontrado.Licencia=auxVeterinario.Licencia;
               auxVeterinarioEncontrado.HorasLaborales=auxVeterinario.HorasLaborales;
+              auxVeterinarioEncontrado.Nombre=auxVeterinarioEncontrado.Nombre;
+              auxVeterinarioEncontrado.Apellidos=auxVeterinarioEncontrado.Apellidos;
+              auxVeterinarioEncontrado.NumeroTelefono=auxVeterinarioEncontrado.NumeroTelefono;
+              auxVeterinarioEncontrado.Genero=auxVeterinarioEncontrado.Genero;
               
                _appContext.SaveChanges();
            }

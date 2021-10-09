@@ -17,6 +17,8 @@ namespace MascotasEnCasa.App.Dominio
         public string Latitud {get;set;}
         public string Longitud {get;set;}
         public string Ciudad {get;set;}
+        public Veterinario Veterinario { get; set; } 
+        public AuxVeterinario AuxVeterinario { get; set; }       
         public Propietario Propietario {get;set;}
         public Historia Historia {get;set;}
         public List<SignoVital> SignosVitales {get;set;}

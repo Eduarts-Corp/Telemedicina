@@ -16,8 +16,7 @@ namespace MascotasEnCasa.App.Consola
         {
             Console.WriteLine("Prueba de Tester");
            // AddPaciente();
-            BuscarPaciente(2);
-                                         
+            BuscarPaciente(2);                                         
         }
         private static void AddPaciente()
         {

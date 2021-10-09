@@ -6,7 +6,7 @@ namespace MascotasEnCasa.App.Persistencia
 {
     public interface IRepositorioSugerenciaCuidado
     {
-       IEnumerable<SugerenciaCuidado> GetAllSugerenciaCuidado();
+       IEnumerable<SugerenciaCuidado> GetAllSugerenciaCuidado();       
         SugerenciaCuidado AddSugerenciaCuidado(SugerenciaCuidado sugerenciaCuidado);
         SugerenciaCuidado UpdateSugerenciaCuidado(SugerenciaCuidado sugerenciaCuidado);        
         void DeleteSugerenciaCuidado(int idSugerenciaCuidado);

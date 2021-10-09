@@ -6,7 +6,7 @@ namespace MascotasEnCasa.App.Persistencia
 {
     public interface IRepositorioHistoria
     {
-        IEnumerable<Historia> GetAllHistoria();
+        IEnumerable<Historia> GetAllHistoria();        
         Historia AddHistoria(Historia historia);
         Historia UpdateHistoria(Historia historia);
         void DeleteHistoria (int idHistoria);

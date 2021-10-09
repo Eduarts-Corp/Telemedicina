@@ -43,7 +43,9 @@ namespace MascotasEnCasa.App.Persistencia
            var historiaEncontrada = _appContext.Historias.FirstOrDefault( p => p.Id==historia.Id);
            if (historiaEncontrada!=null)
            {
-               historiaEncontrada.Diagnostico=historia.Diagnostico;           
+               historiaEncontrada.Diagnostico=historia.Diagnostico;
+               historiaEncontrada.SugerenciasCuidados = historia.SugerenciasCuidados;   
+                       
                                
                _appContext.SaveChanges();
            }
