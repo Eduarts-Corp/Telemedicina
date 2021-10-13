@@ -12,12 +12,12 @@ namespace MascotasEnCasa.App.Dominio
         public int Peso {get;set;}
         public string Color {get;set;}
         public int Edad {get;set;}
-        public Genero Genero {get;set;}           
+        public Sexo Sexo {get;set;}           
         public string Direccion{get;set;}
         public string Latitud {get;set;}
         public string Longitud {get;set;}
         public string Ciudad {get;set;}
-        public Veterinario Veterinario { get; set; } 
+        public Veterinario Veterinario { get; set; }         
         public AuxVeterinario AuxVeterinario { get; set; }       
         public Propietario Propietario {get;set;}
         public Historia Historia {get;set;}

@@ -1,0 +1,71 @@
+﻿@page
+@model MascotasEnCasa.App.Presentacion.Pages.Pacientes.CrearModel
+@{
+}
+<h1>Nuevo Paciente</h1> <br>
+
+<a class="btn btn-primary" asp-page ="./Inicio">Volver </a>
+
+<form method="post">
+    
+    <div class="form-group">
+        <label asp-for="paciente.Nombre"></label> 
+        <input asp-for="paciente.Nombre" class="form-control"> 
+    </div>
+
+     <div class="form-group">
+        <label asp-for="paciente.Raza"></label> 
+        <input asp-for="paciente.Raza" class="form-control"> 
+    </div>
+
+    <div class="form-group">
+        <label asp-for="paciente.Peso"></label> 
+        <input asp-for="paciente.Peso" class="form-control"> 
+    </div>
+
+    <div class="form-group">
+        <label asp-for="paciente.Color"></label> 
+        <input asp-for="paciente.Color" class="form-control"> 
+    </div>
+
+    <div class="form-group">
+        <label asp-for="paciente.Edad"></label> 
+        <input asp-for="paciente.Edad" class="form-control"> 
+    </div>
+
+    <div class="form-group">
+        <label asp-for="paciente.Sexo"></label> 
+        <input asp-for="paciente.Sexo" class="form-control"> 
+    </div>
+
+    <div class="form-group">
+        <label asp-for="paciente.Direccion"></label> 
+        <input asp-for="paciente.Direccion" class="form-control"> 
+    </div>
+
+    <div class="form-group">
+        <label asp-for="paciente.Latitud"></label> 
+        <input asp-for="paciente.Latitud" class="form-control"> 
+    </div>
+
+    <div class="form-group">
+        <label asp-for="paciente.Longitud"></label> 
+        <input asp-for="paciente.Longitud" class="form-control"> 
+    </div>
+
+    <div class="form-group">
+        <label asp-for="paciente.Ciudad"></label> 
+        <input asp-for="paciente.Ciudad" class="form-control"> 
+    </div>
+
+   
+
+    <li>Todos los campos son obligatorios</li> <br>
+
+    <button class="btn btn-primary" asp-page=/.SignoVital>Registrar Signo Vital</button>
+    
+
+    <a class="btn btn-primary" asp-page ="./Inicio">Cancelar </a>
+
+
+</form>

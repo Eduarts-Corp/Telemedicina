@@ -66,3 +66,9 @@ C:\Mascotas\MascotasEnCasa.App\MascotasEnCasa.App.Consola\obj\Debug\netcoreapp3.
 C:\Mascotas\MascotasEnCasa.App\MascotasEnCasa.App.Consola\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Consola.dll
 C:\Mascotas\MascotasEnCasa.App\MascotasEnCasa.App.Consola\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Consola.pdb
 C:\Mascotas\MascotasEnCasa.App\MascotasEnCasa.App.Consola\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Consola.genruntimeconfig.cache
+C:\Mascotas11Oct\MascotasEnCasa.App\MascotasEnCasa.App.Consola\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Consola.csprojAssemblyReference.cache
+C:\Mascotas11Oct\MascotasEnCasa.App\MascotasEnCasa.App.Consola\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Consola.AssemblyInfoInputs.cache
+C:\Mascotas11Oct\MascotasEnCasa.App\MascotasEnCasa.App.Consola\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Consola.AssemblyInfo.cs
+C:\Mascotas11Oct\MascotasEnCasa.App\MascotasEnCasa.App.Consola\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Consola.csproj.CoreCompileInputs.cache
+C:\Mascotas11Oct\MascotasEnCasa.App\MascotasEnCasa.App.Consola\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Consola.dll
+C:\Mascotas11Oct\MascotasEnCasa.App\MascotasEnCasa.App.Consola\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Consola.pdb

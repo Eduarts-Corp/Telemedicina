@@ -6,11 +6,13 @@ namespace MascotasEnCasa.App.Persistencia
 {
     public interface IRepositorioPaciente
     {
-        IEnumerable<Paciente> GetAllPacientes();                
+        IEnumerable<Paciente> GetAllPacientes();                        
         Paciente AddPaciente(Paciente paciente);
         Paciente UpdatePaciente(Paciente paciente);
         void DeletePaciente (int idPaciente);
-        Paciente GetPaciente(int idpaciente);
+        Paciente GetPaciente(int idpaciente);      
+       SignoVital AddSignoVital(SignoVital signoVital); 
+        
         
     } 
 }

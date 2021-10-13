@@ -5,7 +5,7 @@ namespace MascotasEnCasa.App.Persistencia
 {
     public class AppContext : DbContext
     {
-        public DbSet<Paciente> Pacientes { get; set; }        
+        public DbSet<Paciente> Pacientes { get; set; }                
         public DbSet<Historia> Historias { get; set; }
         public DbSet<Persona>  Personas { get; set; }
         public DbSet<Veterinario> Veterianarios { get; set; }
@@ -21,7 +21,7 @@ namespace MascotasEnCasa.App.Persistencia
          if (!optionsBuilder.IsConfigured)
          {
              optionsBuilder.UseSqlServer
-             ("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog  = Veterinaria");
+             ("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog  = Garous");
          }   
         }
     }

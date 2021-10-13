@@ -7,12 +7,8 @@ namespace MascotasEnCasa.App.Persistencia
     public class RepositorioSugerenciaCuidado: IRepositorioSugerenciaCuidado
     {
 
-        private readonly MascotasEnCasa.App.Persistencia.AppContext _appContext;
-
-        public RepositorioSugerenciaCuidado(MascotasEnCasa.App.Persistencia.AppContext appContext)
-        {
-            _appContext = appContext;
-        }
+        private readonly AppContext _appContext= new AppContext();
+                
         
         SugerenciaCuidado IRepositorioSugerenciaCuidado.AddSugerenciaCuidado(SugerenciaCuidado sugerenciaCuidado)
         {
@@ -23,7 +19,7 @@ namespace MascotasEnCasa.App.Persistencia
         }   
          void IRepositorioSugerenciaCuidado.DeleteSugerenciaCuidado(int idSugerenciaCuidado)
         {
-            var sugerenciaCuidadoEncontrada= _appContext.SugerenciasCuidados.FirstOrDefault( p => p.Id==idSugerenciaCuidado);
+            var sugerenciaCuidadoEncontrada= _appContext.SugerenciasCuidados.Find(idSugerenciaCuidado);
            if (sugerenciaCuidadoEncontrada==null)
               return;
             _appContext.SugerenciasCuidados.Remove(sugerenciaCuidadoEncontrada);
@@ -35,12 +31,12 @@ namespace MascotasEnCasa.App.Persistencia
         }
          SugerenciaCuidado IRepositorioSugerenciaCuidado.GetSugerenciaCuidado(int idSugerenciaCuidado)
         {
-             return _appContext.SugerenciasCuidados.FirstOrDefault( p => p.Id==idSugerenciaCuidado);
+             return _appContext.SugerenciasCuidados.Find(idSugerenciaCuidado);
           
         }
         SugerenciaCuidado IRepositorioSugerenciaCuidado.UpdateSugerenciaCuidado(SugerenciaCuidado sugerenciaCuidado)
         {
-           var sugerenciaCuidadoEncontrada= _appContext.SugerenciasCuidados.FirstOrDefault( p => p.Id==sugerenciaCuidado.Id);
+           var sugerenciaCuidadoEncontrada= _appContext.SugerenciasCuidados.Find(sugerenciaCuidado.Id);
            if (sugerenciaCuidadoEncontrada!=null)
            {
                sugerenciaCuidadoEncontrada.FechaHora=sugerenciaCuidado.FechaHora;

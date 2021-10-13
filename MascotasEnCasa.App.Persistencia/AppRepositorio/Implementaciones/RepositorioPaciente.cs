@@ -2,17 +2,15 @@ using System;
 using System.Collections.Generic;
 using MascotasEnCasa.App.Dominio;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace MascotasEnCasa.App.Persistencia
 {
     public class RepositorioPaciente : IRepositorioPaciente
     {
-        private readonly MascotasEnCasa.App.Persistencia.AppContext _appContext;
+        private readonly AppContext _appContext = new AppContext();
 
-        public RepositorioPaciente(MascotasEnCasa.App.Persistencia.AppContext appContext)
-        {
-            _appContext = appContext;
-        }                  
+          
         Paciente IRepositorioPaciente.AddPaciente(Paciente paciente)
         {
           var pacienteAdicionado = _appContext.Pacientes.Add(paciente);
@@ -22,7 +20,7 @@ namespace MascotasEnCasa.App.Persistencia
         }   
          void IRepositorioPaciente.DeletePaciente(int idPaciente)
         {
-            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault( p => p.Id==idPaciente);
+            var pacienteEncontrado = _appContext.Pacientes.Find(idPaciente);
             if (pacienteEncontrado==null)
                return;
                _appContext.Pacientes.Remove(pacienteEncontrado);
@@ -34,12 +32,12 @@ namespace MascotasEnCasa.App.Persistencia
         }
          Paciente IRepositorioPaciente.GetPaciente(int idPaciente)
         {
-             return _appContext.Pacientes.FirstOrDefault( p => p.Id==idPaciente);
+             return _appContext.Pacientes.Find(idPaciente);
           
         }
          Paciente IRepositorioPaciente.UpdatePaciente(Paciente paciente)
         {
-           var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault( p => p.Id==paciente.Id);
+           var pacienteEncontrado = _appContext.Pacientes.Find(paciente.Id);
            if (pacienteEncontrado!=null)
            {
                pacienteEncontrado.Nombre=paciente.Nombre;
@@ -47,7 +45,7 @@ namespace MascotasEnCasa.App.Persistencia
                pacienteEncontrado.Peso=paciente.Peso;
                pacienteEncontrado.Color=paciente.Color;
                pacienteEncontrado.Edad=paciente.Edad;
-               pacienteEncontrado.Genero=paciente.Genero;   
+               pacienteEncontrado.Sexo=paciente.Sexo;   
                pacienteEncontrado.Direccion=paciente.Direccion;
                pacienteEncontrado.Latitud=paciente.Latitud;
                pacienteEncontrado.Longitud=paciente.Longitud;
@@ -59,7 +57,14 @@ namespace MascotasEnCasa.App.Persistencia
            return pacienteEncontrado;
 
         }
-    
+        
+        SignoVital IRepositorioPaciente.AddSignoVital(SignoVital signoVital)
+        {
+            var SignoVitalAdicionado= _appContext.SignosVitales.Add(signoVital);
+            _appContext.SaveChanges();
+            return SignoVitalAdicionado.Entity;
+        }
+       
 
     }
 }    

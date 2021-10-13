@@ -32,9 +32,9 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
                     Genero = table.Column<int>(type: "int", nullable: false),
                     Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Licencia = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    HorasLaborales = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    HorasLaborales = table.Column<DateTime>(type: "datetime2", nullable: true),
                     Correo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Veterinario_Licencia = table.Column<int>(type: "int", nullable: true),
+                    Veterinario_Licencia = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Especialidad = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -74,11 +74,13 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
                     Peso = table.Column<int>(type: "int", nullable: false),
                     Color = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Edad = table.Column<int>(type: "int", nullable: false),
-                    Genero = table.Column<int>(type: "int", nullable: false),
+                    Sexo = table.Column<int>(type: "int", nullable: false),
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Latitud = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Longitud = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    VeterinarioId = table.Column<int>(type: "int", nullable: true),
+                    AuxVeterinarioId = table.Column<int>(type: "int", nullable: true),
                     PropietarioId = table.Column<int>(type: "int", nullable: true),
                     HistoriaId = table.Column<int>(type: "int", nullable: true)
                 },
@@ -92,8 +94,20 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
+                        name: "FK_Pacientes_Personas_AuxVeterinarioId",
+                        column: x => x.AuxVeterinarioId,
+                        principalTable: "Personas",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
                         name: "FK_Pacientes_Personas_PropietarioId",
                         column: x => x.PropietarioId,
+                        principalTable: "Personas",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Pacientes_Personas_VeterinarioId",
+                        column: x => x.VeterinarioId,
                         principalTable: "Personas",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -122,6 +136,11 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Pacientes_AuxVeterinarioId",
+                table: "Pacientes",
+                column: "AuxVeterinarioId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Pacientes_HistoriaId",
                 table: "Pacientes",
                 column: "HistoriaId");
@@ -130,6 +149,11 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
                 name: "IX_Pacientes_PropietarioId",
                 table: "Pacientes",
                 column: "PropietarioId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Pacientes_VeterinarioId",
+                table: "Pacientes",
+                column: "VeterinarioId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_SignosVitales_PacienteId",

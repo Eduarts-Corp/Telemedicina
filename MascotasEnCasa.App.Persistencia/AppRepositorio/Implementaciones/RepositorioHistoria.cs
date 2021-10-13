@@ -8,12 +8,9 @@ namespace MascotasEnCasa.App.Persistencia
     public class RepositorioHistoria:IRepositorioHistoria
     {
 
-         private readonly MascotasEnCasa.App.Persistencia.AppContext _appContext;
+         private readonly AppContext _appContext = new AppContext();
 
-        public RepositorioHistoria(MascotasEnCasa.App.Persistencia.AppContext appContext)
-        {
-            _appContext = appContext;
-        }   
+        
         
         Historia IRepositorioHistoria.AddHistoria(Historia historia)
         {
@@ -24,7 +21,7 @@ namespace MascotasEnCasa.App.Persistencia
         }   
          void IRepositorioHistoria.DeleteHistoria(int idHistoria)
         {
-            var historiaEncontrada = _appContext.Historias.FirstOrDefault( p => p.Id==idHistoria);
+            var historiaEncontrada = _appContext.Historias.Find(idHistoria);
            if (historiaEncontrada==null)
               return;
             _appContext.Historias.Remove(historiaEncontrada);
@@ -36,11 +33,11 @@ namespace MascotasEnCasa.App.Persistencia
         }
          Historia IRepositorioHistoria.GetHistoria(int idHistoria)
         {
-             return _appContext.Historias.FirstOrDefault( p => p.Id==idHistoria);          
+             return _appContext.Historias.Find(idHistoria);          
         }
         Historia IRepositorioHistoria.UpdateHistoria(Historia historia)
         {
-           var historiaEncontrada = _appContext.Historias.FirstOrDefault( p => p.Id==historia.Id);
+           var historiaEncontrada = _appContext.Historias.Find(historia.Id);
            if (historiaEncontrada!=null)
            {
                historiaEncontrada.Diagnostico=historia.Diagnostico;

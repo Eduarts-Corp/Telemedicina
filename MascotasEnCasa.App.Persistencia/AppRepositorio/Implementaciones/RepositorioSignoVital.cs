@@ -7,12 +7,9 @@ namespace MascotasEnCasa.App.Persistencia
 {
     public class RepositorioSignoVital:IRepositorioSignoVital
     {
-         private readonly MascotasEnCasa.App.Persistencia.AppContext _appContext;
+         private readonly AppContext _appContext= new AppContext();
 
-        public RepositorioSignoVital(MascotasEnCasa.App.Persistencia.AppContext appContext)
-        {
-            _appContext = appContext;
-        }    
+        
      SignoVital IRepositorioSignoVital.AddSignoVital(SignoVital signoVital)
         {
           var SignoVitalAdicionado = _appContext.SignosVitales.Add(signoVital);
@@ -23,7 +20,7 @@ namespace MascotasEnCasa.App.Persistencia
          void IRepositorioSignoVital.DeleteSignoVital(int idSignoVital)
          
         {
-            var SignoVitalAdicionado= _appContext.SignosVitales.FirstOrDefault( p => p.Id==idSignoVital);
+            var SignoVitalAdicionado= _appContext.SignosVitales.Find(idSignoVital);
            if (SignoVitalAdicionado==null)
               return;
             _appContext.SignosVitales.Remove(SignoVitalAdicionado);
@@ -35,12 +32,12 @@ namespace MascotasEnCasa.App.Persistencia
         }
          SignoVital IRepositorioSignoVital.GetSignoVital(int idSignoVital)
         {
-             return _appContext.SignosVitales.FirstOrDefault( p => p.Id==idSignoVital);
+             return _appContext.SignosVitales.Find(idSignoVital);
           
         }
         SignoVital IRepositorioSignoVital.UpdateSignoVital(SignoVital signoVital)
         {
-           var SignoVitalAdicionado= _appContext.SignosVitales.FirstOrDefault( p => p.Id==signoVital.Id);
+           var SignoVitalAdicionado= _appContext.SignosVitales.Find(signoVital.Id);
            if (SignoVitalAdicionado!=null)
            {
                SignoVitalAdicionado.FechaHora=signoVital.FechaHora;

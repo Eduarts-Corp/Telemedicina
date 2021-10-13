@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MascotasEnCasa.App.Persistencia;
 
 namespace MascotasEnCasa.App.Presentacion
 {
@@ -22,8 +23,10 @@ namespace MascotasEnCasa.App.Presentacion
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {   /// aqui esta es la parte que realmente permite la conexion a las bases de datos 
             services.AddRazorPages();
+            services.AddSingleton<IRepositorioPaciente,RepositorioPaciente>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

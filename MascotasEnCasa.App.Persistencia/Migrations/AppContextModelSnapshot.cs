@@ -56,9 +56,6 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
                     b.Property<int>("Edad")
                         .HasColumnType("int");
 
-                    b.Property<int>("Genero")
-                        .HasColumnType("int");
-
                     b.Property<int?>("HistoriaId")
                         .HasColumnType("int");
 
@@ -79,6 +76,9 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
 
                     b.Property<string>("Raza")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Sexo")
+                        .HasColumnType("int");
 
                     b.Property<int?>("VeterinarioId")
                         .HasColumnType("int");

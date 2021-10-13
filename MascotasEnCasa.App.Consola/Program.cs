@@ -22,14 +22,16 @@ namespace MascotasEnCasa.App.Consola
         {
             var paciente = new Paciente
             {
-                Nombre="Guantes Sandoval",
-                Raza="Pincher",                                
-                Peso = 4,  
+                Nombre="Canela Sandoval",
+                Raza=" Buldog Terrier",                                
+                Peso = 12,  
                 Edad = 2,              
-                Color= "Negro-amarillo",         
-                Genero= Genero.Masculino,
-                Direccion= "Cra 10 bis 14-46",
-                Ciudad= "Chia-Cundinamarca"
+                Color= "Gris",         
+                Sexo= Sexo.Hembra,
+                Direccion= "Cra 4 bis 13-49",
+                Ciudad= "Bogota-Cundinamarca",
+                Latitud= "0,002345F",
+                Longitud= "0.455277W"
 
 
 

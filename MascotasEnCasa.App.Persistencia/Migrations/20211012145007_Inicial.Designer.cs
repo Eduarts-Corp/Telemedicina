@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MascotasEnCasa.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211009024324_Inicial1")]
-    partial class Inicial1
+    [Migration("20211012145007_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -58,9 +58,6 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
                     b.Property<int>("Edad")
                         .HasColumnType("int");
 
-                    b.Property<int>("Genero")
-                        .HasColumnType("int");
-
                     b.Property<int?>("HistoriaId")
                         .HasColumnType("int");
 
@@ -81,6 +78,9 @@ namespace MascotasEnCasa.App.Persistencia.Migrations
 
                     b.Property<string>("Raza")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Sexo")
+                        .HasColumnType("int");
 
                     b.Property<int?>("VeterinarioId")
                         .HasColumnType("int");

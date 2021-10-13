@@ -8,12 +8,9 @@ namespace MascotasEnCasa.App.Persistencia
 {
     public class RepositorioPersona : IRepositorioPersona
     {
-      private readonly MascotasEnCasa.App.Persistencia.AppContext _appContext;
+      private readonly AppContext _appContext= new AppContext();
 
-        public RepositorioPersona(MascotasEnCasa.App.Persistencia.AppContext appContext)
-        {
-            _appContext = appContext;
-        }   
+        
         Persona IRepositorioPersona.AddPersona(Persona persona)
         {
           var personaAdicionada = _appContext.Personas.Add(persona);
@@ -23,7 +20,7 @@ namespace MascotasEnCasa.App.Persistencia
         }   
          void IRepositorioPersona.DeletePersona(int idPersona)
         {
-            var personaEncontrada = _appContext.Personas.FirstOrDefault( p => p.Id==idPersona);
+            var personaEncontrada = _appContext.Personas.Find(idPersona);
            if (personaEncontrada==null)
               return;
             _appContext.Personas.Remove(personaEncontrada);
@@ -50,12 +47,12 @@ namespace MascotasEnCasa.App.Persistencia
         }  
          Persona IRepositorioPersona.GetPersona(int idPersona)
         {
-            return _appContext.Personas.FirstOrDefault( p => p.Id==idPersona);
+            return _appContext.Personas.Find(idPersona);
           
         }
         Persona IRepositorioPersona.UpdatePersona(Persona persona)
         {
-           var personaEncontrada = _appContext.Personas.FirstOrDefault( p => p.Id==persona.Id);
+           var personaEncontrada = _appContext.Personas.Find(persona.Id);
            if (personaEncontrada!=null)
            {
                personaEncontrada.Nombre=persona.Nombre;
@@ -72,7 +69,7 @@ namespace MascotasEnCasa.App.Persistencia
 
        Propietario IRepositorioPersona.UpdatePropietario(Propietario propietario)
        {
-        var propietarioEncontrado = _appContext.Propietarios.FirstOrDefault( p => p.Id==propietario.Id);
+        var propietarioEncontrado = _appContext.Propietarios.Find(propietario.Id);
            if (propietarioEncontrado!=null)
            {
                propietarioEncontrado.Correo=propietario.Correo; 
