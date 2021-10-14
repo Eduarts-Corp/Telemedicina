@@ -4,8 +4,11 @@
 }
 <h1>Lista de Pacientes</h1><br>
 
-  
+<a class="btn btn-primary" asp-page ="./Inicio">Volver </a>
 
+<br>
+
+<br>
 
 <table class="table">
     <thead>
@@ -20,7 +23,7 @@
             <th scope="col">Latitud</th>
             <th scope="col">Longitud</th>
             <th scope="col">Ciudad</th>
-             <th scope="col">Registrar Signo Vital</th>
+            <th scope="col">Registrar Signo Vital</th>
             <th scope="col">Actualizar</th>
             <th scope="col">Eliminar</th>
 
@@ -41,7 +44,7 @@
             <td>@p.Latitud</td>
             <td>@p.Longitud</td>
             <td>@p.Ciudad</td>
-             <td><a class="btn btn-secondary" asp-page="./SignoVital" asp-route-id=@p.Id>Signo Vital</a> </td>
+            <td><a class="btn btn-secondary" asp-page="./SignoVital" asp-route-id=@p.Id>Signo Vital</a> </td>
             <td><a class="btn btn-secondary" asp-page="./Actualizar" asp-route-id=@p.Id>Actualizar</a> </td> 
             <td><a class="btn btn-secondary" asp-page="./Eliminar" asp-route-id=@p.Id>Eliminar</a> </td>
             

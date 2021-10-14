@@ -7,6 +7,8 @@ namespace MascotasEnCasa.App.Dominio
         public string Licencia { get; set; }
 
         public string Especialidad { get; set; }
+
+        ///public List<Paciente> Pacientes {get;set;}
     }
 
 }   

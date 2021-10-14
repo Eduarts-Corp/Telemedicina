@@ -2,7 +2,7 @@ namespace MascotasEnCasa.App.Dominio
 {
     public enum Signo
     {
-    FrecuenciaCardiaca,    
+    FrecuenciaCardiaca,        
     FrecuenciaRespiratoria,
     Temperatura
     }

@@ -46,3 +46,15 @@ C:\Mascotas12Oct-relaciones\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\o
 C:\Mascotas12Oct-relaciones\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CopyComplete
 C:\Mascotas12Oct-relaciones\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
 C:\Mascotas12Oct-relaciones\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.deps.json
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Debug\netstandard2.1\MascotasEnCasa.App.Dominio.dll
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Debug\netstandard2.1\MascotasEnCasa.App.Dominio.pdb
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.csprojAssemblyReference.cache
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.AssemblyInfoInputs.cache
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.AssemblyInfo.cs
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CopyComplete
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
+C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb

@@ -23,6 +23,8 @@ namespace MascotasEnCasa.App.Presentacion.Pages.Pacientes
     
         public IActionResult OnGet(int id)
         {
+            signoVital=new SignoVital();
+
             paciente=_repoPaciente.GetPaciente(id);
             if(paciente==null)
             {

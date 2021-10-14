@@ -1,5 +1,40 @@
 ﻿@page
+@using MascotasEnCasa.App.Dominio;
 @model MascotasEnCasa.App.Presentacion.Pages.Pacientes.SignoVitalModel
 @{
 }
 <h1>Registro de Signos Vitales</h1>
+
+<form method="post">
+<div class="form-group">
+    <label asp-for="paciente.Id"></label>
+    <input asp-for="paciente.Id" class="form-control" readonly>
+</div>
+
+<div class="form-group">
+    <label asp-for="signoVital.FechaHora"></label>
+    <input asp-for="signoVital.FechaHora" class="form-control"> 
+</div>
+
+<div class="form-group">
+    <label asp-for="signoVital.Valor"></label>
+    <input asp-for="signoVital.Valor" class="form-control"> 
+</div>
+
+<div class="form-group">
+    <label asp-for="signoVital.Signo"></label>
+    <select asp-for="signoVital.Signo" asp-items= "Html.GetEnumSelectList<Signo>()" class="form-control"></select> 
+</div>
+
+
+<br>
+<br>
+
+    <button type="submit" class="btn btn-primary">Registrar Signo Vital</button>
+
+    <a class="btn btn-primary" asp-page ="./Inicio">Cancelar </a>
+
+
+
+
+</form>
