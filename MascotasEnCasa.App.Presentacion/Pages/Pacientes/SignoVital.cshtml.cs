@@ -32,13 +32,26 @@ namespace MascotasEnCasa.App.Presentacion.Pages.Pacientes
             }
             else
             {
-            return Page();
+                return Page();
             }
         }
-        public IActionResult OnPost(SignoVital signoVital)
+        public IActionResult OnPost(SignoVital signoVital, Paciente paciente)
         {
-            _repoPaciente.AddSignoVital(signoVital);
-            return RedirectToPage("Index");
+            if(paciente.SignosVitales==null)
+            {
+               List<SignoVital> signosVitales = new List<SignoVital>();
+               signosVitales.Add(signoVital);
+               paciente.SignosVitales=signosVitales;                
+               return RedirectToPage("Index");
+            }
+            else
+            {
+                paciente.SignosVitales.Add(signoVital);
+                return RedirectToPage("Index");
+
+            }
+
+            
         }
 
     }

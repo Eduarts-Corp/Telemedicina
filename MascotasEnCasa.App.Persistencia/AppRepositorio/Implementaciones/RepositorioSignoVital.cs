@@ -11,7 +11,8 @@ namespace MascotasEnCasa.App.Persistencia
 
         
      SignoVital IRepositorioSignoVital.AddSignoVital(SignoVital signoVital)
-        {
+        { 
+         
           var SignoVitalAdicionado = _appContext.SignosVitales.Add(signoVital);
           _appContext.SaveChanges();
           return SignoVitalAdicionado.Entity;
