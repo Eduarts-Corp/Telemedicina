@@ -58,3 +58,15 @@ C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\ne
 C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CopyComplete
 C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
 C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\bin\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.deps.json
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\bin\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\bin\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\bin\Debug\netstandard2.1\MascotasEnCasa.App.Dominio.dll
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\bin\Debug\netstandard2.1\MascotasEnCasa.App.Dominio.pdb
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.AssemblyInfo.cs
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CopyComplete
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Persistencia\obj\Debug\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb

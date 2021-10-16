@@ -5797,19 +5797,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eduar\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\Telemedicina\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
       "projectName": "MascotasEnCasa.App.Presentacion",
-      "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
-      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-      "outputPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Telemedicina\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Telemedicina\\MascotasEnCasa.App.Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5820,11 +5820,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
-              "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj"
+            "C:\\Users\\ASUS\\Documents\\GitHub\\Telemedicina\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Telemedicina\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj"
             },
-            "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj": {
-              "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj"
+            "C:\\Users\\ASUS\\Documents\\GitHub\\Telemedicina\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Telemedicina\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj"
             }
           }
         }

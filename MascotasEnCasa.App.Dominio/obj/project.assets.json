@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eduar\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\Telemedicina\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
       "projectName": "MascotasEnCasa.App.Dominio",
-      "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-      "outputPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Telemedicina\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Telemedicina\\MascotasEnCasa.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
