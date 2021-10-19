@@ -10,3 +10,15 @@ C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\
 C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CopyComplete
 C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
 C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.deps.json
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Release\netstandard2.1\MascotasEnCasa.App.Dominio.dll
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Release\netstandard2.1\MascotasEnCasa.App.Dominio.pdb
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.csprojAssemblyReference.cache
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.AssemblyInfoInputs.cache
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.AssemblyInfo.cs
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CopyComplete
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
+C:\Mascotas18OctDesplegado\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb
