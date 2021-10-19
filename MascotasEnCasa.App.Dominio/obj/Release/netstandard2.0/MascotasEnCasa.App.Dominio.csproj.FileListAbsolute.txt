@@ -1,0 +1,9 @@
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\bin\Release\netstandard2.0\MascotasEnCasa.App.Dominio.deps.json
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\bin\Release\netstandard2.0\MascotasEnCasa.App.Dominio.dll
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\bin\Release\netstandard2.0\MascotasEnCasa.App.Dominio.pdb
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Release\netstandard2.0\MascotasEnCasa.App.Dominio.csprojAssemblyReference.cache
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Release\netstandard2.0\MascotasEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Release\netstandard2.0\MascotasEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Release\netstandard2.0\MascotasEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Release\netstandard2.0\MascotasEnCasa.App.Dominio.dll
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Release\netstandard2.0\MascotasEnCasa.App.Dominio.pdb

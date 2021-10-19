@@ -2,9 +2,117 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    Layout=null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+<html>
+    <head>
+        <link rel="icon"  href="https://i.ibb.co/BqY6pPD/icono.png">
+        <meta charset="utf-8">
+		<title> #HospiEnCasaMascotas </title>
+		<meta name="viewport" content="width device.width, user-scalable=1.0, inicial-scalable=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="~/css/main.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="nav-link text-dark" asp-area="" asp-page="/Pacientes/Inicio">Inicio</a>
+                <a href="#"> Ingresar</a>
+                <a href="#"> Registrarse</a>
+            </nav>
+            <section class="header-textos">
+                <h1 style="color: white;">¡Veterinaria Garous!</h1>
+                <h2>Al servicio de tu mascota</h2>
+            </section>
+            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.28,49.83 C130.07,157.39 349.20,-49.98 501.41,48.84 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+        </header>
+        <main>
+            <section class="contenedor sobre-nosotros" id="nosotros">
+                <h2 class="titulo"> Acerca de Nosotros  </h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="https://i.ibb.co/BqY6pPD/icono.png" class="img-about-us">
+                <div class="text-about-us"> 
+                    <h3><span>1</span> Vision</h3>
+                    <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    
+                    <h3><span>2</span> Mision</h3>
+                    <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>  
+                </div>
+            </section>
+            
+            <section class="servicios" id="servicios">
+                <div class="contenedor">
+                    <h2 class="titulo">  Nuestros Servicios</h2>
+                    <div class="servicio-cont">
+                        <div class="servicio-ind">
+                            <img src="https://i.ibb.co/9gHgknZ/dogtor.jpg"> 
+                            <h3> Atencion Personalizada</h3>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="https://i.ibb.co/5MwbdDg/doctor.jpg"> 
+                            <h3> Agendamiento 24/7 </h3>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="https://i.ibb.co/tzT3PFD/eco.jpg"> 
+                            <h3> Servicio A Domicilio</h3>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <section class=" contenedor opiniones" id="opiniones">
+                    <h2 class="titulo"> Que dicen nuestros clientes</h2>
+                    <div class="tarjetas">
+                        <div class="tarjeta">
+                            <img src="https://i.ibb.co/TcGzqhG/gato.jpg">
+                            <div class="texto-tarjeta">
+                                <h4>Manchas</h4>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,d</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <img src="https://i.ibb.co/48znhGc/PERRO.jpg">
+                            <div class="texto-tarjeta">
+                                <h4>Maximiliano</h4>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+            <footer> 
+            <div class="contenedor-footer" id="contacto">
+                <div class="content-foo"> 
+                    <h4>telefono</h4>
+                    <p>(+57) 60-6-321-3452</p>
+                </div>
+                <div class="content-foo"> 
+                    <h4>Correo</h4>
+                    <p>Garous@hotmail.com</p>
+                </div>
+                <div class="content-foo"> 
+                    <h4>Direccion</h4>
+                    <p> Cra 2 #23-54 </p>
+                </div>
+            </div>
+                <h2 class="titulo-final">&copy; Grupo 9 | Garous </h2>
+        </footer>
+    </body>
+
+    /*@if (User.Identity.IsAuthenticated)
+{
+    <table class="table table-sm">
+        @foreach (var x in User.Claims)
+        {
+            <tr>
+                <td>@x.Type</td>
+                <td>@x.Value</td>
+            </tr>
+        }
+    </table>
+}
+
+
+</html>

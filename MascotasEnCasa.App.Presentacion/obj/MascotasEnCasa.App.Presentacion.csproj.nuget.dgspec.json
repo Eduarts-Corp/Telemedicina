@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MAscotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj": {}
+    "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
+    "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
         "projectName": "MascotasEnCasa.App.Dominio",
-        "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
+        "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\obj\\",
+        "outputPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj": {
+    "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj",
         "projectName": "MascotasEnCasa.App.Persistencia",
-        "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj",
+        "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
-                "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj"
+              "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
+                "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj"
               }
             }
           }
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MAscotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj": {
+    "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MAscotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
+        "projectUniqueName": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
         "projectName": "MascotasEnCasa.App.Presentacion",
-        "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MAscotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
+        "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MAscotasEnCasa.App.Presentacion\\obj\\",
+        "outputPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -154,11 +154,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
-                "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj"
+              "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
+                "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj"
               },
-              "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj": {
-                "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj"
+              "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj": {
+                "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj"
               }
             }
           }
@@ -172,11 +172,27 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCOre": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [

@@ -1,0 +1,12 @@
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.deps.json
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Release\netstandard2.1\MascotasEnCasa.App.Dominio.dll
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\bin\Release\netstandard2.1\MascotasEnCasa.App.Dominio.pdb
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.csprojAssemblyReference.cache
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.AssemblyInfoInputs.cache
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.AssemblyInfo.cs
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.csproj.CopyComplete
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.dll
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Persistencia\obj\Release\netstandard2.1\MascotasEnCasa.App.Persistencia.pdb

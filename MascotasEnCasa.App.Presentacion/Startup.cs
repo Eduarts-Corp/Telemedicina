@@ -26,6 +26,8 @@ namespace MascotasEnCasa.App.Presentacion
         {   /// aqui esta es la parte que realmente permite la conexion a las bases de datos 
             services.AddRazorPages();
             services.AddSingleton<IRepositorioPaciente,RepositorioPaciente>();
+            services.AddControllersWithViews();
+            
             
         }
 
@@ -45,8 +47,10 @@ namespace MascotasEnCasa.App.Presentacion
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            
             app.UseRouting();
+            app.UseAuthentication();
+
 
             app.UseAuthorization();
 

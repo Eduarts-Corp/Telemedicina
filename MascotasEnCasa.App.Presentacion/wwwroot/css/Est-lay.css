@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Scheherazade New', serif;
+}
+
+.horario{
+    background-color: rgba(132, 94, 201, 0.93);
+    color:#fff;
+    width: 50%;
+    border-bottom:2px solid rgba(128, 66, 243, 0.986);
+    float: left;
+    border-top-left-radius: 20px;
+    font-size: 22px;
+}
+.contacto{
+    background-color: rgba(132, 94, 201, 0.93);
+    color:#fff;  
+    float: left;
+    width: 50%;
+    text-align: end;
+     border-bottom:2px solid rgba(128, 66, 243, 0.986);
+    border-top-right-radius: 20px;
+    font-size: 22px;
+}
+.garous{
+    background-color:rgba(132, 94, 201, 0.93);
+    text-align: center;
+}
+.logo{
+    width: 50%;
+    float: left;
+    text-align: end;
+    background-color:rgba(132, 94, 201, 0.93);
+}
+.titulo{
+    color: rgb(150, 6, 193);
+    width: 50%;
+    float: right;
+    background-color:rgba(132, 94, 201, 0.93);
+    font-size: 34px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.title1{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing:3px;
+    border-bottom: 4px dotted rgba(132, 94, 201, 0.93);
+}

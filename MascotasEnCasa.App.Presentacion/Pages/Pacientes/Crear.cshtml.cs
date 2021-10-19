@@ -13,14 +13,13 @@ namespace MascotasEnCasa.App.Presentacion.Pages.Pacientes
     public class CrearModel : PageModel
     {
         private readonly IRepositorioPaciente _repoPaciente;
-        public Paciente paciente {get; set;}    ///genero un variable de tipo paciente para guardar los datos de la parte grafica
-        /// Ahora necesito un metodo constructor para que me pueda crear la conexion directa con el repositorio entonces
-        public CrearModel(IRepositorioPaciente _repoPaciente)/// generara unatributo de tipo repoPaciente y se llamara repoPaciente
+        public Paciente paciente {get; set;}           
+        public CrearModel(IRepositorioPaciente _repoPaciente)
         {
-            this._repoPaciente = _repoPaciente; /// aqui le digo que el repoPaciente es igual el repoPaciente al que declare inicialmente.
+            this._repoPaciente = _repoPaciente; 
         }
 
-        public void OnGet() /// dentro de este metodo debo llamar para que me instancie un nuevo paciente asi:
+        public void OnGet() 
         {
             paciente= new Paciente(); /// Cuando se ejecute me dira que este paciente que estoy llamando aqui me lo va a llamar creando el nuevo paciente.
         } /// para que me lo envie a la base de datos me toca crear un metodo AddPaciente que estaq en el IRepositorio 

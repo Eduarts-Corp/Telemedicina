@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {}
+    "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
+    "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
         "projectName": "MascotasEnCasa.App.Dominio",
-        "projectPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
+        "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascotas13Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\obj\\",
+        "outputPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"

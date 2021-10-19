@@ -1,17 +1,54 @@
 ﻿@page
 @model MascotasEnCasa.App.Presentacion.Pages.Pacientes.InicioModel
 @{
+    Layout= null;
 }
-<h1>MENU PRINCIPAL</h1><br>
 
-<a class="btn btn-primary" asp-page ="./Crear"> Nuevo Paciente </a> 
+<html>
+<head>
+ <link rel="icon"  href="https://i.ibb.co/BqY6pPD/icono.png">
+    <meta charset="utf-8">
+    <title> Inicio </title>
+    <meta name="viewport" content="width device.width, user-scalable=1.0, inicial-scalable=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="~/css/inicio.css">
+</head>
+<body>
+     <div class="area-sup">
+                <div class="horario">
+				    <p>Lunes-Sabado, 8am-10pm</p>
+				</div>
+				<div class="contacto">
+				    <p>contactanos: (+57) 60-6-321-3452</p>
+				</div>
+            </div>
+            <div class="clear"></div>
+        <header>
+            <div class="garous">
+                <div class="logo">
+                <a href="index.html"><img  src="https://i.ibb.co/BqY6pPD/icono.png" width="40px" height="40px"></a>
+                </div>
+                <div>
+                    <h2 class="titulo"> Garous</h2>
+                </div>
+            </div>
+         </header>
+    <section>
+        <div class="contenedor">
+        <div class="title">
+        <h1 class="uno">M E N U <br>P R  I N C I P A L.</h1><br>
+        </div>
+        <div class="enlaces">
+    <div class="enlace1"><a class="btn btn-primary"asp-page ="./Crear"> Nuevo Paciente </a> </div>  
+    <div class="enlace2"><a class="btn btn-primary" asp-page ="./Index"> Lista de Pacientes </a></div>
+    <div class="enlace3"><a class="btn btn-primary" asp-page ="./Crear">Propietario </a></div>
+    <div class="enlace4"><a class="btn btn-primary" asp-page ="./Crear">Medico Veterinario </a></div>
+    </div>
+    </div>
+    </section>
 
-<a class="btn btn-primary" asp-page ="./Index"> Lista de Pacientes </a>
 
-<a class="btn btn-primary" asp-page ="./Crear">Propietario </a>
-
-<a class="btn btn-primary" asp-page ="./Crear">Medico Veterinario </a>
-
+</body>
+</html>
 
 
 

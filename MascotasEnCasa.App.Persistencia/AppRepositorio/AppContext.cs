@@ -21,7 +21,7 @@ namespace MascotasEnCasa.App.Persistencia
          if (!optionsBuilder.IsConfigured)
          {
              optionsBuilder.UseSqlServer
-             ("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog  = Garous");
+             ("Server=tcp:databasegarous.database.windows.net,1433;Initial Catalog=Garous;Persist Security Info=False;User ID=eduarts;Password=Garous1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
          }   
         }
     }

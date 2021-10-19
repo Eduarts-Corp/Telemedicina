@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Scheherazade New', serif;
+}
+
+.horario{
+    background-color: rgba(132, 94, 201, 0.93);
+    color:#fff;
+    width: 50%;
+    border-bottom:2px solid rgba(128, 66, 243, 0.986);
+    float: left;
+    border-top-left-radius: 20px;
+    font-size: 22px;
+}
+.contacto{
+    background-color: rgba(132, 94, 201, 0.93);
+    color:#fff;  
+    float: left; 
+    width: 50%;
+    text-align: end;
+     border-bottom:2px solid rgba(128, 66, 243, 0.986);
+    border-top-right-radius: 20px;
+    font-size: 22px;
+}
+.garous{
+    background-color:rgba(132, 94, 201, 0.93);
+    text-align: center;
+}
+.logo{
+    width: 50%;
+    float: left;
+    text-align: end;
+}
+.titulo{
+    margin-right: 44%;
+    color: rgb(150, 6, 193);
+}
+.contenedor{
+    padding: 40px 0;
+    max-width: 1000px;
+    margin: auto; 
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing:3px;
+    border-bottom: 4px dotted rgba(132, 94, 201, 0.93);
+}
+.uno{
+margin-bottom: -39px;
+}
+.enlaces{
+    display: flex;
+    justify-content: space-evenly;
+}
+.enlaces .enlace1{
+    display: flex;
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
+    color: #fff;
+    margin: 20px;
+    font-size: 25px;
+}
+.enlaces .enlace2{
+    display: flex;
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
+    color: #fff;
+    margin: 20px;
+    font-size: 25px;
+}
+.enlaces .enlace3{
+    display: flex;
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
+    color: #fff;
+    margin: 20px;
+    font-size: 25px;
+}
+.enlaces .enlace4{
+    display: flex;
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
+    color: #fff;
+    margin: 20px;
+    font-size: 25px;
+}
+.enlaces .enlace1 a{
+    text-decoration: none;
+    color: black;
+}
+.enlaces .enlace2 a{
+    text-decoration: none;
+    color: black;
+}
+.enlaces .enlace3 a{
+    text-decoration: none;
+    color: black;
+}
+.enlaces .enlace4 a{
+    text-decoration: none;
+    color: black;
+}
+.enlaces .enlace1:hover{
+    background-image: url(https://i.ibb.co/QQyTzWY/enlace1.jpg);
+}
+.enlaces .enlace2:hover{
+    background-image: url(https://i.ibb.co/cJNxTw9/enlace3.jpg);
+}
+.enlaces .enlace3:hover{
+    background-image: url(https://i.ibb.co/Y25NBGR/enlace4.jpg);
+}
+.enlaces .enlace4:hover{
+    background-image: url(https://i.ibb.co/fGgnVBX/enlace2.jpg);
+}
+.enlaces .enlace1 a:hover{
+    background-color: hsla(0, 10%, 10%, 0.56);
+    color: #fff;
+    border-radius: 10px;
+}
+.enlaces .enlace2 a:hover{
+    background-color: hsla(0, 10%, 10%, 0.56);
+    color: #fff;
+    border-radius: 10px;
+}
+.enlaces .enlace3 a:hover{
+    background-color: hsla(0, 10%, 10%, 0.56);
+    color: #fff;
+    border-radius: 10px;
+}
+.enlaces .enlace4 a:hover{
+    background-color: hsla(0, 10%, 10%, 0.56);
+    color: #fff;
+    border-radius: 10px;
+}

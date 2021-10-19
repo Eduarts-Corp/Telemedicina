@@ -43,3 +43,12 @@ C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Debug\netstan
 C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.dll
 C:\Mascotas13Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.pdb
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\bin\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.deps.json
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\bin\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.dll
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\bin\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.pdb
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.csprojAssemblyReference.cache
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.dll
+C:\Mascotas14Oct\MascotasEnCasa.App\MascotasEnCasa.App.Dominio\obj\Debug\netstandard2.0\MascotasEnCasa.App.Dominio.pdb
