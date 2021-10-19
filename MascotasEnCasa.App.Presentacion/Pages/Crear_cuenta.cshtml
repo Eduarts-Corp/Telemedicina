@@ -1,0 +1,40 @@
+@page
+@model IndexModel
+@{
+    Layout="";
+}
+
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuenta</title>
+    <link rel="stylesheet" href="styles/crear_cuenta.css">
+</head>
+<body>
+    <div>
+        <h1>Bienvenido a Hospitalización en casa de mascotas</h1>
+        <p>Por favor, cree una cuenta con tu email y contraseña</p>
+        <form action="/action_page" method="post">
+            <label for="e-mail">Email</label>
+            <input class="entrada" type="email" id="e-mail" name="e-mail" placeholder="introduzca su email por favor" required maxlength="30" pattern="[a-z0-9._%+-]+[a-z0-9.-]+\.[a-z]{2,}$" title="caracteres@caracteres.dominio"><br>
+            <label for="Password">Contraseña</label>
+            <input class="entrada" type="password" id="Password" name="Password" placeholder="introduzca la contraseña" required maxlength="50"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra mayúscula y minúscula, y al menos 8 caracteres o más"><br>
+            <label for="re-password">Repita la contaseña</label>
+            <input class="entrada" type="password" id="re-password" name="re-password" placeholder="por favor vuelva a introducir la contraseña" required maxlength="50" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra mayúscula y minúscula, y al menos 8 caracteres o más"><br>
+            <label for="rad-vet">Veterinario</label>
+            <input type="radio" id="rad-vet" name="users" required><br>
+            <label for="rad-auxv">Auxiliar Veterinario</label>
+            <input type="radio" id="rad-auxv" name="users" required><br>
+            <label for="rad-prop">Propietario</label>
+            <input type="radio" id="rad-prop" name="users" required><br>
+            <input class="crear_cuenta" type="submit" value="Crear Cuenta">
+            <p class="pregunta">¿Ya tienes una cuenta?</p>
+            <p class="enlace"><a href="Iniciar_sesion"><b>Entra</b></a></p> <!--seudoelemento hover-->
+        </form>
+    </div>
+<img src="img/logo_mascota.png" alt="" width="25%" height="auto">
+</body>
+</html>

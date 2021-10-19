@@ -1,0 +1,28 @@
+@page
+@model IndexModel
+@{
+    Layout="";
+}
+
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Olvidaste tu contraseña?</title>
+    <link rel="stylesheet" href="styles/crear_cuenta.css">
+</head>
+<body>
+    <div></div>
+    <h1>¿Olvidaste tu contraseña?</h1>
+    <p>Por favor digita tu email y recibiras un correo con tu nueva contraseña</p>
+    <form action="/action_page.cpp" method="post">
+        <label for="e-mail">Email</label>
+        <input class="entrada" type="email" id="e-mail" name="e-mail" placeholder="bramdon@ejemplo.com" required maxlength="30" pattern="[a-z0-9._%+-]+[a-z0-9.-]+\.[a-z]{2,}$" title="caracteres@caracteres.dominio"><br>
+        <input class="crear_cuenta" type="submit" value="Enviar Link">
+    </form>
+    <p class="enlace3"><a href="Iniciar_sesion"><b>Volver a iniciar sesión</b></a></p>
+    <img src="img/logo_mascota.png" alt="" width="25%" height="auto"> 
+</body>
+</html>

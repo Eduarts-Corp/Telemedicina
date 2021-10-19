@@ -1,0 +1,33 @@
+@page
+@model IndexModel
+@{
+    Layout="";
+}
+
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iniciar sesión</title>
+    <link rel="stylesheet" href="styles/crear_cuenta.css">
+</head>
+<body>
+    <div></div>
+    <h1>Bienvenido a Hospitalización en casa de mascotas</h1>
+    <p>Por favor, entra con tu email y contraseña</p>
+    <form action="/action_page.cpp" method="post">
+        <label for="e-mail">Email</label>
+        <input class="entrada" type="email" id="e-mail" name="e-mail" placeholder="bramdon@ejemplo.com" required maxlength="30" pattern="[a-z0-9._%+-]+[a-z0-9.-]+\.[a-z]{2,}$" title="caracteres@caracteres.dominio"><br>
+        <!--¿Olvido su contraseña es un link-->
+        <p class="pregunta2"><a href="Olvidaste_tu_contraseña"><b>¿Olvido su Contraseña?</b></a></p>
+        <label for="Password">Contraseña</label>
+        <input class="entrada" type="password" id="Password" name="Password" placeholder="introduzca la contraseña" required maxlength="50"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra mayúscula y minúscula, y al menos 8 caracteres o más"><br>
+        <input class="crear_cuenta" type="submit" value="Iniciar Sesión">
+    </form>
+    <p class="pregunta3">¿No tienes una cuenta?</p>
+    <p class="enlace2"><a href="Crear_cuenta"><b>Crear cuenta</b></a></p>
+    <img src="img/logo_mascota.png" alt="" width="25%" height="auto">
+</body>
+</html>

@@ -524,3 +524,6 @@ C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Presentacion\obj\
 C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Presentacion.dll
 C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Presentacion.pdb
 C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\MascotasEnCasa.App.Presentacion.genruntimeconfig.cache
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\crear_cuenta.cshtml.g.cs
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Iniciar_sesion.cshtml.g.cs
+C:\Users\ASUS\Documents\GitHub\Telemedicina\MascotasEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Olvidaste_tu_contraseña.cshtml.g.cs
