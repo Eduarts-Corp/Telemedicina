@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj": {}
+    "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
+    "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
         "projectName": "MascotasEnCasa.App.Dominio",
-        "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
+        "projectPath": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\obj\\",
+        "outputPath": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj": {
+    "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj",
         "projectName": "MascotasEnCasa.App.Persistencia",
-        "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj",
+        "projectPath": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
-                "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj"
+              "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
+                "projectPath": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj"
               }
             }
           }
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj": {
+    "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
+        "projectUniqueName": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
         "projectName": "MascotasEnCasa.App.Presentacion",
-        "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
+        "projectPath": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\obj\\",
+        "outputPath": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -154,11 +154,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
-                "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj"
+              "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj": {
+                "projectPath": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Dominio\\MascotasEnCasa.App.Dominio.csproj"
               },
-              "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj": {
-                "projectPath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj"
+              "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj": {
+                "projectPath": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Persistencia\\MascotasEnCasa.App.Persistencia.csproj"
               }
             }
           }

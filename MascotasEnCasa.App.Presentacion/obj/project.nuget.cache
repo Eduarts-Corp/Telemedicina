@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jwmQ572KR+3uQy20AAZYpyQ7we5klqDRqzuY03X3vz9k8tg3lWbCFVfV1L++lDUU/xposYMza1YdHiZ04BvYsQ==",
+  "dgSpecHash": "MaWWRVaFPy0ohIgPB2Qk8D6bPnYpVCBtWhiZyoYd3FNHyCwafm4h99ZQypMwNulcAT+ORva+YnloLp7Z0Wd2uA==",
   "success": true,
-  "projectFilePath": "C:\\Mascotas14Oct\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
+  "projectFilePath": "C:\\Mascotas18OctDesplegado\\MascotasEnCasa.App\\MascotasEnCasa.App.Presentacion\\MascotasEnCasa.App.Presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eduar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\eduar\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
