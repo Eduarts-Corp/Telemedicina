@@ -21,6 +21,7 @@ namespace MascotasEnCasa.App.Consola
         private static void AddPaciente()
         {
             var paciente = new Paciente
+            
             {
                 Nombre="Canela Sandoval",
                 Raza=" Buldog Terrier",                                
